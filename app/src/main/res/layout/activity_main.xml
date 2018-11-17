@@ -25,15 +25,17 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
-        android:text="スタート" />
+        android:onClick="onStartButtonTapped"
+        android:text="@string/start" />
 
     <Button
         android:id="@+id/stopbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/startbutton"
         android:layout_marginEnd="33dp"
-        android:text="ストップ" />
+        android:layout_marginTop="20dp"
+        android:onClick="onStopButtonTapped"
+        android:text="@string/stop" />
 </RelativeLayout>
 <!--</android.support.constraint.ConstraintLayout>-->

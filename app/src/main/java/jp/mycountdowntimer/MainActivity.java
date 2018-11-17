@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         mSoundPool = new SoundPool(2, AudioManager.STREAM_ALARM ,0);
-        mSoundResId = mSoundPool.load(this, R.raw.bellsound,1);//R.フォルダ名.ファイル名
+        //mSoundResId = mSoundPool.load(this, R.raw.bellsound,1);//R.フォルダ名.ファイル名
     }
 
     @Override
