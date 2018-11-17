@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyCountdownTimer</string>
+    <string name="start">スタート</string>
+    <string name="stop">ストップ</string>
 </resources>
