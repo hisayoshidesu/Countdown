@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         public void onTick(long millisUntiFinished) {
             long minute = millisUntiFinished / 1000 / 60;
             long second = millisUntiFinished / 1000 % 60;
-            mTimerText.setText(String.format("%id:%2$02d", minute, second));
+            mTimerText.setText(String.format("%1d:%2$02d", minute, second));
         }
 
         @Override
